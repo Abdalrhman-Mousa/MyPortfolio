@@ -1,0 +1,187 @@
+/* import fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+
+body {
+    position: relative;
+    background-color:#303030;
+    color:#b6cbce;
+    font-family: "Bai Jamjuree"
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:#ffffff;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color:#b6cbce;
+}
+
+a:hover {
+    color:#6c6c6c;
+}
+
+img {
+    width: 100%;
+}
+
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-brand {
+    color:#6c6c6c;
+}
+
+/* Start Nav Style */
+
+
+.navbar {
+    background-color:#2d2d2d;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color:#6c6c6c;
+}
+
+.navbar .nav-link.active {
+    color:#6c6c6c;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width:240px;
+        background:rgb(33, 33, 33);
+
+    }
+
+    .navbar-brand img {
+        border: 3px solid#6c6c6c;
+    }
+
+    /* End Nav Style */
+
+    /*  Start Home Style */
+    #content-wrapper {
+
+        padding-left:240px;
+
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /*  End Home Style */
+
+    /* ===========================================================start Abooooout=================================================== */
+
+    #About {
+        width: 100%;
+        height: auto;
+        background: #303030;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+    }
+
+    #About .div-img-bg {
+        padding-bottom: 30px;
+        border: 20px solid #ffffff;
+    }
+
+    #About .div-img-bg .about-img img {
+        width: 100%;
+        box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+        margin-top: -60px;
+        margin-left: 40px;
+        height: 400px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    #About .about-descr .p-heading {
+        text-align: left;
+    }
+
+    #about .about-descr .separator {
+        max-width: 80%;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    /*====================================================== Endddd Aboooout ==================================================== */
+
+    /*====================================================== Start Skills ==================================================== */
+
+
+    #skills {
+        width: 100%;
+        height: auto;
+        background: #303030;
+        padding-top: 80px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+    }
+
+
+
+    /*====================================================== End Skills ==================================================== */
+
+    /*====================================================== Start Work ==================================================== */
+
+
+    #Work {
+        width: 100%;
+        height: auto;
+        background: #303030;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        margin-right: 80px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+    }
+
+    #contact {
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        height: auto;
+        background: #303030;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+
+
+    }
+
+    /*====================================================== End Work ==================================================== */
