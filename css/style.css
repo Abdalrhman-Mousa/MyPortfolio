@@ -4,8 +4,8 @@
 
 body {
     position: relative;
-    background-color:#303030;
-    color:#b6cbce;
+    background-color: #303030;
+    color: #b6cbce;
     font-family: "Bai Jamjuree"
 }
 
@@ -15,17 +15,17 @@ h3,
 h4,
 h5,
 h6 {
-    color:#ffffff;
+    color: #ffffff;
     font-weight: 500;
 }
 
 a {
     text-decoration: none;
-    color:#b6cbce;
+    color: #b6cbce;
 }
 
 a:hover {
-    color:#6c6c6c;
+    color: #6c6c6c;
 }
 
 img {
@@ -45,14 +45,14 @@ img {
 }
 
 .text-brand {
-    color:#6c6c6c;
+    color: #6c6c6c;
 }
 
 /* Start Nav Style */
 
 
 .navbar {
-    background-color:#2d2d2d;
+    background-color: #2d2d2d;
 }
 
 .navbar .nav-link {
@@ -62,18 +62,18 @@ img {
 }
 
 .navbar .nav-link:hover {
-    color:#6c6c6c;
+    color: #6c6c6c;
 }
 
 .navbar .nav-link.active {
-    color:#6c6c6c;
+    color: #6c6c6c;
 }
 
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
-        width:240px;
-        background:rgb(33, 33, 33);
+        width: 240px;
+        background: rgb(33, 33, 33);
 
     }
 
@@ -86,7 +86,7 @@ img {
     /*  Start Home Style */
     #content-wrapper {
 
-        padding-left:240px;
+        padding-left: 240px;
 
     }
 
@@ -137,6 +137,11 @@ img {
         text-align: left;
     }
 
+    #about.tiltlesec {
+
+        text-align: center;
+    }
+
     /*====================================================== Endddd Aboooout ==================================================== */
 
     /*====================================================== Start Skills ==================================================== */
@@ -147,9 +152,11 @@ img {
         height: auto;
         background: #303030;
         padding-top: 80px;
+        padding-bottom: 80px;
         border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-
     }
+
+    
 
 
 
@@ -158,15 +165,13 @@ img {
     /*====================================================== Start Work ==================================================== */
 
 
-    #Work {
+    #myprojects{
         width: 100%;
         height: auto;
         background: #303030;
-        padding-top: 80px;
+        padding-top: -80px;
         padding-bottom: 80px;
-        margin-right: 80px;
         border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-
     }
 
     #contact {
@@ -178,10 +183,71 @@ img {
         background: #303030;
         padding-top: 80px;
         padding-bottom: 80px;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-
-
-
+        /* border-bottom: 2px solid rgba(255, 255, 255, 0.1); */
     }
+
+    /* #recommendations {
+        width: 100%;
+        height: auto;
+        background: #303030;
+        padding-top: 10px;!important
+        /* padding-bottom: 80px; */
+        /* border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        margin: left 40px; */
+
+    /* }
+
+    #recommendations .recom {
+        padding: 80px 0;
+    }
+
+    #recommendations .recom .card {
+
+        box-shadow: 0 30px 0 rgba(129, 129, 129, 0.5);
+        overflow: hidden;
+        border-radius: 15px;
+    }
+
+    #recommendations .recom .img1 img {
+
+        height: 200px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        width: 100%;
+    }
+
+    #recommendations .recom .img2 img {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 6px solid #5f5f5f;
+        margin-top: -80px;
+    }
+
+    #recommendations .recom .main-text {
+
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    . .main-text .coach-name {
+        color: #0000;
+    }
+
+    #recommendations .recom .card:hover .img2 img {
+        border: dashed rgb(219, 135, 7);
+        transition: 1.5s ;
+    }
+
+    #recommendations .recom .linked {
+
+        text-align: center;
+        color: rgb(198, 198, 198);
+        padding-bottom: 20px; */
+    } */
 
     /*====================================================== End Work ==================================================== */
